@@ -17,11 +17,16 @@
         <h1>ID: {{id}}</h1>
 <H1>NOME: {{nome}}</H1>
 <H1>HP: {{hp}}</H1>
+            {% for tipo in lista_tipos %}
+                <h1>TIPO: {{tipo}}</h1>
+            {% endfor %}
 <H1>ATAQUE: {{ataque}}</H1>
 <H1>DEFESA: {{defesa}}</H1>
 <H1>ATAQUE ESPECIAL: {{ataque_especial}}</H1>
 <H1>DEFESA ESPECIAL: {{defesa_especial}}</H1>
 <H1>VELOCIDADE: {{velocidade}}</H1>
+<h1>PESO: {{peso}} Kg</h1>
+            <h1>ALTURA: {{altura}} Metros</h1>
         </div>
     </div>
 </section>
