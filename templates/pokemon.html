@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>pokedex</title>
+    <link href="{{url_for('static', filename='pokemon.css')}}" rel="stylesheet" type="text/css">
+
+</head>
+<body>
+<section class="corpo">
+    <div class="conteudo">
+
+    <div class="imagem">
+<img src="{{foto}}" alt="gif">
+    </div>
+        <div class="texto">
+        <h1>ID: {{id}}</h1>
+<H1>NOME: {{nome}}</H1>
+<H1>HP: {{hp}}</H1>
+<H1>ATAQUE: {{ataque}}</H1>
+<H1>DEFESA: {{defesa}}</H1>
+<H1>ATAQUE ESPECIAL: {{ataque_especial}}</H1>
+<H1>DEFESA ESPECIAL: {{defesa_especial}}</H1>
+<H1>VELOCIDADE: {{velocidade}}</H1>
+        </div>
+    </div>
+</section>
+</body>
+</html>

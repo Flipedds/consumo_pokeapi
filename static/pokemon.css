@@ -1,0 +1,26 @@
+body{
+    background-color:#AC1B23;
+}
+img{
+    width: 320px;
+}
+.corpo{
+width:1800px;
+margin: auto;
+}
+.conteudo{
+display:table;
+}
+.imagem{
+display:table-cell;
+float: left;
+margin-top:20px;
+}
+.texto{
+display:table-cell;
+float: left;
+width:500px;
+color:#fff;
+margin-top:20px;
+margin-left:20px;
+}
